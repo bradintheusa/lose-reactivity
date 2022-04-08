@@ -6,9 +6,16 @@ const description = props.description;
 </script>
 
 <template>
-    <h3>
-      Hello {{description}} - From D
-    </h3>
+  <h2>Component D</h2>
+
+  <p>This is not reactive</p>
+  <pre>
+  const description = props.description;
+
+</pre>
+  <h3>
+    {{description}}
+  </h3>
 </template>
 
 <style scoped>

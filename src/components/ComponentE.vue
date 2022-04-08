@@ -7,9 +7,16 @@ const description = computed(() => props.description.toLowerCase())
 </script>
 
 <template>
-    <h3>
-      Hello {{description}} - From E
-    </h3>
+  <h2>Component D</h2>
+
+  <p>This is reactive</p>
+  <pre>
+  const description = computed(() => props.description.toLowerCase())
+
+</pre>
+  <h3>
+    {{description}}
+  </h3>
 </template>
 
 <style scoped>

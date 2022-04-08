@@ -6,9 +6,16 @@ const {description} = toRefs(props);
 </script>
 
 <template>
-    <h3>
-      Hello {{description}} - From B
-    </h3>
+  <h2>Component B</h2>
+  <p>This works</p>
+
+  <p>As you can see it is reactive</p>
+  <pre>
+  const {description} = toRefs(props);
+</pre>
+  <h3>
+    {{description}}
+  </h3>
 </template>
 
 <style scoped>
