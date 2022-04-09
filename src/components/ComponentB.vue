@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import {toRefs} from "vue";
-const props = defineProps(["description","ladder"]);
+const props = defineProps(["description"]);
 
 const {description} = toRefs(props);
+const d  = description;
 </script>
 
 <template>
